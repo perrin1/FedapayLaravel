@@ -65,8 +65,8 @@ window.location.href = lien;
 
 #### NB:
 
-les donnes du custom_metadata son obtenu dynamiquement, veuillez implémenté le mini projet
-et mettre des informations
+les données du custom_metadata sont obtenues dynamiquements, veuillez implémenter le mini projet
+et mettre des informations dans votre base de donnée
 
 ### 3 . Exemple de Route
 
@@ -163,4 +163,4 @@ Implémenté et tester.
 en cas de difficulté je suis joignable par WhatsApp au   **+229 62099124** 
 <hr> 
  
-> **Note:**le webHook de fedapys est fonctionnel une fois sur server **  vous pouvez tout mettre en place en local et faire vos configuration une fois sur un serveur ou en production
+> **Note:**  **le webHook de fedapys est fonctionnel une fois sur server**  vous pouvez tout mettre en place en local et faire vos configuration une fois sur un serveur ou en production
