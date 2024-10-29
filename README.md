@@ -21,7 +21,7 @@ Vous devez d'abord installer le package officiel de FedaPay pour PHP. Utilisez C
 composer  require  fedapay/fedapay-php
 ```
 
-### 2. Ajouter le script js de fedapay dans votre vu : index.blade.php
+### 2. Ajouter le script js de fedapay dans votre vue : index.blade.php
 
 ```bash
 <script  src="https://cdn.fedapay.com/checkout.js?v=1.1.7"></script>
@@ -74,7 +74,7 @@ et mettre des informations dans votre base de donnée
 Route::post('/paiement/Webhook', [ApkController::class, 'paiementWebhook'])->name('paiementWebhook');
 ```
 
-### 4 . configuration de crsf token
+### 4 . configuration du crsf token pour votre route de webHook
 
 Dans le **Middleware** **VerifyCsrfToken** ajouter ce code :
 
@@ -160,7 +160,7 @@ exit();
 
 <hr> 
 Implémenté et tester.
-en cas de difficulté je suis joignable par WhatsApp au   **+229 62099124** 
+en cas de difficulté je suis joignable par WhatsApp au   **22962099124** 
 <hr> 
  
 > **Note:**  **le webHook de fedapys est fonctionnel une fois sur server**  vous pouvez tout mettre en place en local et faire vos configuration une fois sur un serveur ou en production
