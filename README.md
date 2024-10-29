@@ -163,4 +163,4 @@ Implémenté et tester.
 en cas de difficulté je suis joignable par WhatsApp au   **22962099124** 
 <hr> 
  
-> **Note:**  **le webHook de fedapys est fonctionnel une fois sur server**  vous pouvez tout mettre en place en local et faire vos configuration une fois sur un serveur ou en production
+> **Note:**  **le webHook de Fedapay est fonctionnel une fois sur server**  vous pouvez tout mettre en place en local et faire vos configuration une fois sur un serveur ou en production
