@@ -97,7 +97,7 @@
                                             onclick="iniPaiement({{ $item->id }}, {{ $item->montant }}, '{{ $item->titre }}')">
                                             Payer
 
-                                            
+
                                         </button>
                                     </td>
                                 </tr>
@@ -134,11 +134,11 @@
 
             FedaPay.init('#pay-btn', {
                 public_key: 'votre clé public fedapay',
-                
+
                 transaction: {
                     amount: montant,
                     description: 'Acheter mon produit',
-                  
+
                     custom_metadata: {
                         id: id,
                         montant: montant,
@@ -165,3 +165,9 @@
 </body>
 
 </html>
+
+
+
+
+
+
